@@ -1,0 +1,67 @@
+<!----------JQuery-->
+<!-----implement javasacript in efficient manner  
+DOM, Styling, Event, Exception, Session storage, Validation using JS
+no need of mentioning the event
+eg:<script>
+    function(){
+        --------document.getElementById(" ");
+    }
+</script>
+ <p onmouseenter="function()">My own content</p>-->
+<!---------jquery
+ eg:
+  <script>
+    4(object/selector).event(function(){
+        ....logic
+     ) }
+
+     */
+    $(document).ready(()=>{
+        $("p").mouseenter(()=>{
+            $(this).text("my own content")
+        }
+    )}
+  </script>----------->
+<!-----Jquery-->
+  <!---DOM:--Selectors
+* element name
+*id
+*class
+*form
+*Input-->
+<!------Functions:
+    Val>> Input elements>>value
+    Text/HTML>>innerHTML
+Css>>element-->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting Up Jquery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(()=>{
+            alert("JQuery has begun")
+            $("body").css("background-color","purple")  //to add color to page
+            $("ul").mouseenter(()=>{
+              //  let every=$(this).html()
+                //alert(every)
+              alert($("ul").html())//to print inner html in box
+
+            })
+        })
+    </script>
+</head>
+<body>
+    <h1>Banking Domains</h1>
+    <!---inner html-->
+    <ul>
+        <li>SMS Banking</li>
+        <li>Internet Banking</li>
+        <li>Mobile Banking</li>
+       
+    </ul>
+</body>
+</html>

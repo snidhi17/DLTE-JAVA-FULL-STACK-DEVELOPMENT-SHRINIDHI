@@ -1,0 +1,47 @@
+<!---changing the text content via dom-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <title>Changing the element via JQuery</title>
+    <script>
+        $(document).ready(()=>{
+         $("p").click(()=>{
+            $("p").text("bootstrap better framework")
+
+         })
+         $("p").dblclick(()=>{
+            $("p").text("Jquery efficeint than JS")
+        })
+    })
+        /*$("img").mouseenter(()=>{        //change image attribute
+            $("img").attr("width","1000px")
+            $("img").attr("height","500px")
+
+        })
+        $("img").mouseleave(()=>{
+            $("img").attr("src","DLTE-FE-FEA009-InteractiveLandingLogin-CustomerUseCase/files/c2.jpg")  //change source of image 
+
+    })*/
+    $("img").on([  
+         $("img").mouseenter(()=>{  //change image attribute
+            $("img").attr("width","1000px")
+            $("img").attr("height","500px")
+
+        }),
+        $("img").mouseleave(()=>{
+            $("img").attr("src","DLTE-FE-FEA009-InteractiveLandingLogin-CustomerUseCase/files/c2.jpg")  //change source of image 
+
+    })
+        
+])
+    </script>
+</head>
+<body>
+    <p>Let's do standard script</p>
+    <img src="DLTE-FE-FEA009-InteractiveLandingLogin-CustomerUseCase/files/c1.jpg" width="500px" height="200px">
+</body>
+</html>

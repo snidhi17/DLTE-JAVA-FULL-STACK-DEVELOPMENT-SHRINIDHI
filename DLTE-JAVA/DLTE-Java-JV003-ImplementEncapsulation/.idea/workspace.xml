@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="edc3d605-b0ca-4933-96f3-8269bdb63af3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../DLTE-Java-003/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DLTE-Java-003/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2M8ZhGa0pOHJ4KrmTiIMRfJqsO1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ImplementingEncapsulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="encapsulation.ImplementingEncapsulation" />
+      <module name="DLTE-Java-JV003-ImplementEncapsulation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="encapsulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ImplementingEncapsulation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edc3d605-b0ca-4933-96f3-8269bdb63af3" name="Default Changelist" comment="" />
+      <created>1677151286517</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677151286517</updated>
+      <workItem from="1677151295952" duration="1666000" />
+      <workItem from="1677214480827" duration="933000" />
+      <workItem from="1677224197042" duration="2831000" />
+    </task>
+    <task id="LOCAL-00001" summary="inheritance and interface">
+      <created>1677155125171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677155125171</updated>
+    </task>
+    <task id="LOCAL-00002" summary="implementation of encapsulation of loan request from customer">
+      <created>1677214967003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677214967003</updated>
+    </task>
+    <task id="LOCAL-00003" summary="implementation of encapsulation of loan request from customer">
+      <created>1677224553109</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677224553109</updated>
+    </task>
+    <task id="LOCAL-00004" summary="implementation of encapsulation of loan request from customer">
+      <created>1677224582917</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677224582917</updated>
+    </task>
+    <task id="LOCAL-00005" summary="implementation of encapsulation of loan request from customer">
+      <created>1677224653428</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677224653428</updated>
+    </task>
+    <task id="LOCAL-00006" summary="implementation of encapsulation">
+      <created>1677224751893</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677224751893</updated>
+    </task>
+    <task id="LOCAL-00007" summary="implementation of encapsulation">
+      <created>1677225061000</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677225061000</updated>
+    </task>
+    <task id="LOCAL-00008" summary="implementation of encapsulation">
+      <created>1677225769703</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677225769703</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="inheritance and interface" />
+    <MESSAGE value="implementation of encapsulation of loan request from customer" />
+    <MESSAGE value="implementation of encapsulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementation of encapsulation" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Notifications" timestamp="1677224787155">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="233" y="0" key="#Notifications/0.0.1280.672@0.0.1280.672" timestamp="1677224787155" />
+    <state x="88" y="0" key="CommitChangelistDialog2" timestamp="1677226636702">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="88" y="0" key="CommitChangelistDialog2/0.0.1280.672@0.0.1280.672" timestamp="1677226636702" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1677215145620">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.672@0.0.1280.672" timestamp="1677215145620" />
+    <state width="618" height="161" key="GridCell.Tab.0.bottom" timestamp="1677227414363">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="618" height="161" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1677227414363" />
+    <state width="618" height="161" key="GridCell.Tab.0.center" timestamp="1677227414363">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="618" height="161" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1677227414363" />
+    <state width="618" height="161" key="GridCell.Tab.0.left" timestamp="1677227414363">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="618" height="161" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1677227414363" />
+    <state width="618" height="161" key="GridCell.Tab.0.right" timestamp="1677227414363">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="618" height="161" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1677227414363" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1677225790984">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.672@0.0.1280.672" timestamp="1677225790984" />
+    <state x="91" y="42" key="new project wizard" timestamp="1677215148959">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="91" y="42" key="new project wizard/0.0.1280.672@0.0.1280.672" timestamp="1677215148959" />
+    <state x="350" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1677224393155">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="350" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.672@0.0.1280.672" timestamp="1677224393155" />
+  </component>
+</project>

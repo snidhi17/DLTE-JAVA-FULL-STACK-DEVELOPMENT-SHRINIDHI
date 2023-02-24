@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94729d37-508d-4bb9-b362-5baa5fb6de0c" name="Default Changelist" comment="encapsulation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Encapsulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Encapsulation.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MAf8c53qSAJGVonuzUuK3TCTvX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94729d37-508d-4bb9-b362-5baa5fb6de0c" name="Default Changelist" comment="" />
+      <created>1677215149013</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677215149013</updated>
+      <workItem from="1677215152336" duration="4124000" />
+      <workItem from="1677228131189" duration="286000" />
+    </task>
+    <task id="LOCAL-00001" summary="encapsulation">
+      <created>1677225385592</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677225385592</updated>
+    </task>
+    <task id="LOCAL-00002" summary="encapsulation">
+      <created>1677226790385</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677226790385</updated>
+    </task>
+    <task id="LOCAL-00003" summary="encapsulation">
+      <created>1677227429046</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677227429046</updated>
+    </task>
+    <task id="LOCAL-00004" summary="encapsulation">
+      <created>1677228174539</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677228174539</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Encapsulation" />
+    <MESSAGE value="encapsulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="encapsulation" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="45" key="#com.intellij.ide.util.MemberChooser" timestamp="1677215746550">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="446" y="45" key="#com.intellij.ide.util.MemberChooser/0.0.1280.672@0.0.1280.672" timestamp="1677215746550" />
+    <state x="188" y="0" key="CommitChangelistDialog2" timestamp="1677228430621">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="188" y="0" key="CommitChangelistDialog2/0.0.1280.672@0.0.1280.672" timestamp="1677228430621" />
+    <state width="1222" height="161" key="GridCell.Tab.0.bottom" timestamp="1677225353858">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1222" height="161" key="GridCell.Tab.0.bottom/0.0.1280.672@0.0.1280.672" timestamp="1677225353858" />
+    <state width="1222" height="161" key="GridCell.Tab.0.center" timestamp="1677225353858">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1222" height="161" key="GridCell.Tab.0.center/0.0.1280.672@0.0.1280.672" timestamp="1677225353858" />
+    <state width="1222" height="161" key="GridCell.Tab.0.left" timestamp="1677225353858">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1222" height="161" key="GridCell.Tab.0.left/0.0.1280.672@0.0.1280.672" timestamp="1677225353858" />
+    <state width="1222" height="161" key="GridCell.Tab.0.right" timestamp="1677225353858">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state width="1222" height="161" key="GridCell.Tab.0.right/0.0.1280.672@0.0.1280.672" timestamp="1677225353858" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1677228475379">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.672@0.0.1280.672" timestamp="1677228475379" />
+    <state x="348" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1677228132656">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="348" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.672@0.0.1280.672" timestamp="1677228132656" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1677228362152">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.672@0.0.1280.672" timestamp="1677228362152" />
+  </component>
+</project>

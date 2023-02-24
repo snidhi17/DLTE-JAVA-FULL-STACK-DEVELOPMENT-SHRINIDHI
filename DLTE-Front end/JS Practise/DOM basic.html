@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM using normal method and using functions</title>
+</head>
+<body>
+    <script>
+        //using normal method to ask for user input
+        /*let studentName,studentAge,studentCourse,studentYear,studentCollegeName,studentDOB;
+        studentName=prompt("Enter your name");
+        studentAge=prompt("Enter your Age");
+        studentCourse=prompt("Enter your course details");
+        studentYear=prompt("Enter te year");
+        studentCollegeName=prompt("Enter college name");
+        studentDOB=prompt("Enter birth date");
+
+        alert("Student details are" +studentName+" is of age "+studentAge+" and couse is"+studentCourse+" studying in year"+studentYear+"in college "+studentCollegeName+" and birth date is "+studentDOB);
+        alert(typeof(studentName)+" "+typeof(studentAge)+""+typeof(studentCourse)+" "+typeof(studentYear)+" "+typeof(studentCourse+" "+typeof(studentCollegeName+" "+typeof(studentDOB))));*/
+
+        //using function
+
+        let studentName,studentAge,studentCourse,studentYear,studentCollegeName,studentDOB;
+        window.onload=function(){
+        studentName=prompt("Enter your name");
+        studentAge=prompt("Enter your Age");
+        studentCourse=prompt("Enter your course details");
+        studentYear=prompt("Enter te year");
+        studentCollegeName=prompt("Enter college name");
+        studentDOB=prompt("Enter birth date");
+
+        
+        var view = document.getElementById("show").innerHTML="Student details are" +studentName+" is of age "+studentAge+" and couse is"+studentCourse+" studying in year"+studentYear+"in college "+studentCollegeName+" and birth date is "+studentDOB;
+        }
+
+    </script>
+
+    <p id="show">Result Will be shown here!!!</p>
+
+</body>
+</html>

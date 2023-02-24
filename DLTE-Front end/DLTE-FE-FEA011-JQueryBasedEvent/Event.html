@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <title>JQ Event</title>
+    </head>
+    <script>
+     $(document).ready(()=>{
+        $("body").css("background-color","gray")//changing output color
+        $("#calculate").click(()=>{
+            const fname=$("#fullname").val()
+            const fprof=$("input[name=profession]").val()
+            const fsal=$(".salary").val()
+
+            var tax=0;
+            
+            // var salary=$(".salary").val()
+            if(fsal<=25000){
+                tax=0;
+            }
+            if(fsal>25000 && fsal<=50000) {
+                tax=(fsal-25000)*10/100;
+            }
+            if(fsal>50000 && fsal<=100000) {
+                tax=(fsal-250000)*20/100;
+            }
+            if(fsal>100000){
+                tax=((fsal-100000)*30/100);
+            }
+
+            if(fprof=="employee"){
+                if(fsal<=25000){
+                tax=0;
+            }
+            if(fsal>25000 && fsal<=50000) {
+                tax=(fsal-25000)*10/100;
+            }
+            if(fsal>50000 && fsal<=100000) {
+                tax=(fsal-250000)*20/100;
+            }
+            if(fsal>100000){
+                tax=((fsal-100000)*30/100);
+            }
+        }
+            if(fprof=="self-employee"){
+                if(fsal<=25000){
+                tax=0;
+            }
+            if(fsal>25000 && fsal<=50000) {
+                tax=(fsal-25000)*10/100;
+            }
+            if(fsal>50000 && fsal<=100000) {
+                tax=(fsal-250000)*20/100;
+            }
+            if(fsal>100000){
+                tax=((fsal-100000)*30/100);
+            }
+        }
+             if(fprof=="business"){
+                if(fsal<=25000){
+                tax=0;
+            }
+            if(fsal>25000 && fsal<=50000) {
+                tax=(fsal-25000)*10/100;
+            }
+            if(fsal>50000 && fsal<=100000) {
+                tax=(fsal-250000)*20/100;
+            }
+            if(fsal>100000){
+                tax=((fsal-100000)*30/100);
+            }
+}
+           
+            $("output").val(fname+", "+fprof+" with salary "+fsal+" has to pay tax of "+tax) //output statement
+            
+     });
+});
+ </script>
+</head>
+<body>
+    <div class="container-fluid bg-success">
+        <div class="row">
+            <h4 class="text-light text-center">Tax Calculator</h4>
+        </div>
+    </div>
+    <!-- Main content consisting of input fields -->
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <form class="col-lg-6 col-md-8 col-sm-12">
+                <div class="form-group mt-5">
+                    <label class="text-bg-danger rounded-5 w-25 text-center">Enter Name:</label>
+                    <input type="text" id="fullname" placeholder="Enter your fullname" class="w-100 mt-2"/>
+                </div>
+                <div class="form-group mt-3">
+                    <label class="text-bg-danger rounded-5 w-25 text-center">Enter Profession:</label>
+                    <input type="text" name="profession" placeholder="Enter profession" class="w-100 mt-2"/>
+                </div>
+                <div class="form-group mt-3">
+                    <label class="text-bg-danger rounded-5 w-25 text-center">Enter Salary:</label>
+                    <input type="number" class="salary w-100 mt-2" placeholder="Enter salary"/>
+                </div>
+                <div class="d-flex justify-content-center mt-5">
+                    <input type="button" id="calculate" value="calculate"/>
+                </div>
+                <div class="d-flex justify-content-center mt-5">
+                    <output></output>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>ECMAScript</title>
+</head>
+<body>
+    <script>
+        let accBalance=50000.6;
+        function transfer(){
+            const who = document.forms['transaction'].to.value;
+            const cash = document.forms['transaction'].amount.value;
+
+            if(cash<=accBalance){
+                accBalance-=cash
+                document.forms['transaction'].result.value="Fund "+cash+" has transfered to "+who+" available is "+accBalance
+
+            }
+            else{
+                document.forms['transaction'].result.value="Fund "+cash+" hasn't transfered to "+who
+            }
+
+        }
+        function deposit(){
+            var who = document.forms['transaction'].to.value;
+            var cash = document.forms['transaction'].amount.value;
+            accBalance+=cash;
+
+            document.forms['transaction'].result.value="Amount "+cash+" has deposited by "+who+" available is "+accBalance
+            
+        }
+        </script>
+        <div class="container">
+            <div class="row justify-content-center">
+                <h3 class = "rounded-5 bg-info text-secondary text-center">hello</h3>
+                <form name="transaction" class="col-lg-5 col-md-8 shadow-sm rounded-4 p-7 bg-danger text-info">
+                <div class="form group">
+                    <label>Name</label>
+                    <input type="text" class="form-control" name="to" placeholder="ENter your name">
+                </div>
+                <div class="form group">
+                    <label>Amount</label>
+                    <input type="number" class="form-control" name="amount" placeholder="ENter the amount">
+                </div>
+                <div class="mt-2 row justify-content-evenly">
+                    <input type="button" value="Transfer" class="col-sm-2 btn btn-primary" onclick="transfer()"/>
+                    <input type="button" value="Deposit" class="col-sm-2 btn btn-primary" onclick="deposit()"/>
+                </div>
+                <output name="result"></output>
+            </form>
+
+                    </div>
+            </div>
+                
+                
+                
+
+
+
+</body>
+</html>

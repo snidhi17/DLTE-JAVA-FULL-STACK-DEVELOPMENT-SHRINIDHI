@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQ Event</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(()=>{
+            $("#bt").click(()=>{
+                const fname=$("#fullname").val()
+                const fprofile=$("input[name=profile]").val() //fetch using name so assin value that is write or read any value using name selector we dont have option like id so we need to mention element name,name attribute and value of name attribute
+                //show to customer that file has up;oaded so use SELECTOR id=# class=.
+                $(".bfsi").val(fname+" has uploaded"+fprofile)
+                ///how input value will be assigned
+
+
+            });
+        });
+    </script>
+</head>
+<body>
+    <input type="text" id="fullname"/>
+    <input type="file" name="profile"/>
+    <input type="button" id="bt" value="Modify"/>
+    <output class="bfsi"></output>
+</body>
+</html>
