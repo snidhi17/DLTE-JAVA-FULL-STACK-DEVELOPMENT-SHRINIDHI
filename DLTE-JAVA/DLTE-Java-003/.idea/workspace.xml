@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94729d37-508d-4bb9-b362-5baa5fb6de0c" name="Default Changelist" comment="encapsulation">
+    <list default="true" id="94729d37-508d-4bb9-b362-5baa5fb6de0c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DLTE-Java-JV005-Inheritance/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DLTE-Java-JV005-Inheritance/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DLTE-Java-JV005-Inheritance/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DLTE-Java-JV005-Inheritance/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DLTE-Java-JV005-Inheritance/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DLTE-Java-JV005-Inheritance/DLTE-Java-JV005-Inheritance.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DLTE-Java-JV005-Inheritance/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DLTE-Java-JV005-Inheritance/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DLTE-Java-JV005-Inheritance/src/main/java/org/example/Inheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DLTE-Java-JV005-Inheritance/src/test/java/org/example/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Encapsulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Encapsulation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +73,8 @@
       <option name="presentableId" value="Default" />
       <updated>1677215149013</updated>
       <workItem from="1677215152336" duration="4124000" />
-      <workItem from="1677228131189" duration="286000" />
+      <workItem from="1677228131189" duration="991000" />
+      <workItem from="1677232607756" duration="1158000" />
     </task>
     <task id="LOCAL-00001" summary="encapsulation">
       <created>1677225385592</created>
@@ -94,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677228174539</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="encapsulation">
+      <created>1677228431410</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677228431410</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +131,10 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="188" y="0" key="CommitChangelistDialog2/0.0.1280.672@0.0.1280.672" timestamp="1677228430621" />
+    <state x="420" y="94" key="FileChooserDialogImpl" timestamp="1677233213192">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="420" y="94" key="FileChooserDialogImpl/0.0.1280.672@0.0.1280.672" timestamp="1677233213192" />
     <state width="1222" height="161" key="GridCell.Tab.0.bottom" timestamp="1677225353858">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
@@ -134,10 +155,14 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.672@0.0.1280.672" timestamp="1677228475379" />
-    <state x="348" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1677228132656">
+    <state x="348" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1677232609163">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
-    <state x="348" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.672@0.0.1280.672" timestamp="1677228132656" />
+    <state x="348" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.672@0.0.1280.672" timestamp="1677232609163" />
+    <state x="90" y="41" key="new project wizard" timestamp="1677233220757">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="90" y="41" key="new project wizard/0.0.1280.672@0.0.1280.672" timestamp="1677233220757" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1677228362152">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
