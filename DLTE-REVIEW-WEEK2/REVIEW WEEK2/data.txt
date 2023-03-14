@@ -1,0 +1,1 @@
+Details{registration_number=123, age=21, name='nidhi', email='nidh172gmail.com', address='karkala'}
