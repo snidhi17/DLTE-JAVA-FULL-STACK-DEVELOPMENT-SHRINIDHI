@@ -1,0 +1,25 @@
+--for creating table student
+create table Students(registration_no int not null,student_name varchar(255)  not null,email varchar(255),phone_no int not null);
+
+--adding primary key
+alter table Students add primary key(registration_no);
+
+--creating new sequence
+create sequence detail_seq start with 10001 increment by 1;
+
+--creating table address
+create table Address(address_id int not null,locality varchar(255) not null,area varchar(255) not null,city varchar(255) not null,code int not null);
+
+--adding new column
+alter table Students add address_id int not null;
+
+--inserting values manually
+insert into Address values(detail_seq.CURRVAL,'1267/E','Hiriyangadi','Karkala',654334);
+insert into Address values(detail_seq.CURRVAL,'1265/D','Manipal','Udupi',674334);
+insert into Address values(detail_seq.CURRVAL,'1299/A','Kadri','Mangalore',600334);
+
+--inserting values manually
+insert into Address values(546789,'Shrinidhi','shrinidhi@gmail.com',54678600390,detail_seq.NEXTVAL);
+insert into Address values(546679,'Sannidhi','sannidhi@gmail.com',547600390,detail_seq.NEXTVAL);
+
+
